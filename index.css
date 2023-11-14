@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    background-color: mediumaquamarine;
+    min-height: 100vh;
+
+   display: flex;
+   flex-direction: column;
+}
+main{
+    border: 5px solid pink;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    flex-wrap: wrap;
+display: flex;
+}
+.box1{
+    
+    border: 5px solid;
+    background-color:rgb(137, 255, 172) ;
+}
+.box1a{
+    text-align: center;
+}
+.box2{
+    border: 5px solid red;
+    background-color: rgb(48, 121, 150);
+    align-items: center;
+}
